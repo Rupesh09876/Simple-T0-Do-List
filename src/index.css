@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Footer.module.css */
+.foot {
+  background-color: #f1f1f1;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  position: static;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.space {
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* To-do list container */
+.todos {
+  margin: 0 auto; /* Center the list horizontally */
+  max-width: 500px; /* Set a maximum width for the list */
+}
+
+/* Individual to-do item */
+.todo-item {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and description */
+.todo-item > div {
+  display: flex; /* Allow title and description to be on the same line */
+  justify-content: space-between; /* Space items evenly in the flexbox */
+  align-items: center; /* Vertically align content */
+}
+
+.todo-item > div > button {
+  margin-left: 1rem; /* Add some space between title/description and button */
+}
+
+/* Delete button */
+.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar {
+  background-color: #343a40;
+}
+.navbar-brand {
+  color: #f1f1f1;
+}
